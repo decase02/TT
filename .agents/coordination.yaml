@@ -1,82 +1,68 @@
-# Agent Coordination Ledger for the Central American Trading Company Law Library
-# This is a transparent machine-readable coordination file, not a hidden or secret channel.
-# Purpose: help multiple agents avoid stale overwrites, preserve the Governor's rules, and coordinate edits to README.md.
+schema: catc.agent_coordination.v1
+repo: decase02/TT
+canonical: README.md
+role: law_library
+mode: transparent_machine_readable
 
-schema_version: 1
-repository: decase02/TT
-primary_file: README.md
-primary_file_role: "Company Law Library, Charter Code, and ratified legal instruments"
-coordination_status: active
+core:
+  authority: private_proprietary_contractual_non_sovereign_host_law_subordinate
+  governance: governor_centered_non_democratic
+  property: company_owned_territory_tokenized_area_licenses
+  token_rule: license_not_title_not_vote_not_share_not_sovereignty
 
-operating_principles:
-  transparency: true
-  hidden_agent_only_language: false
-  user_readable: true
-  machine_readable: true
-  preserve_user_authority: true
-  no_secret_law_changes: true
+hard_rules:
+  - fetch_latest_before_edit
+  - no_stale_sha_overwrite
+  - merge_current_state_on_conflict
+  - host_law_supreme
+  - no_sovereignty_claim
+  - no_elections
+  - no_referenda
+  - no_token_voting
+  - no_resident_franchise_over_company
+  - company_owns_territorial_property
+  - tokens_are_contractual_licenses_only
+  - preserve_dwelling_access
+  - preserve_essential_services
+  - preserve_absolute_exit_right
+  - mark_drafts_as_drafts
+  - ratification_requires_governor
 
-mandatory_rules:
-  - "Treat README.md as the Company Law Library, not a normal project README."
-  - "Fetch the latest README.md before proposing or committing edits."
-  - "Do not overwrite another agent's work from a stale SHA."
-  - "If a SHA mismatch occurs, re-fetch current README.md and merge carefully."
-  - "Preserve host-state law supremacy."
-  - "Preserve the Company's non-sovereign status."
-  - "Preserve Governor-centered proprietary governance."
-  - "Preserve the internal non-democratic model: no elections, no referenda, no token voting, no resident franchise over the Company."
-  - "Preserve Company ownership of all territorial property within Company jurisdiction."
-  - "Preserve tokenized area rights as contractual licenses only, not land ownership."
-  - "Preserve resident dwelling access, essential-services protection, and lawful entry/exit."
-  - "Preserve the absolute physical exit right."
-  - "Distinguish ratified instruments from drafts."
-  - "Do not invent ratification by the Governor unless expressly provided by the user."
-  - "Do not claim legal advice is binding or professionally certified."
+edit_flow:
+  pre:
+    - fetch: README.md
+    - fetch: .agents/coordination.yaml
+    - classify: [draft, amendment, act, correction, ratification, formatting]
+    - conflict_check: hard_rules
+  write:
+    - preserve_law_library_structure
+    - preserve_host_law_override
+    - preserve_article_numbering_where_possible
+    - no_unmarked_ratification
+  post:
+    - report_commit_sha
+    - summarize_delta
+    - flag_uncertainty
 
-current_known_readme_state:
-  last_confirmed_heading: "LAW LIBRARY OF THE CENTRAL AMERICAN TRADING COMPANY"
-  last_confirmed_role: "Company Law Library, Charter Code, and Ratified Legal Instruments"
-  last_confirmed_models:
-    authority_model: "Private, proprietary, contractual, non-sovereign, host-law-subordinate governance services"
-    governance_model: "Governor-centered proprietary governance; non-democratic internally"
-    property_model: "Company-owned territorial property; tokenized licenses to defined areas and services"
-  last_confirmed_commit_from_assistant: "916aa1d2a646f5675bd6809bfa96e2bebf74fe3c"
+terms:
+  law_library: README.md
+  charter_code: supreme_internal_instrument_subordinate_to_host_law
+  governor: supreme_internal_executive_and_interpretive_authority
+  entrenched_article: protection_or_structure_subordinate_instruments_cannot_weaken
+  tokenized_license: token_or_credential_representing_contractual_use_access_occupancy_or_service_right
+  company_property: land_buildings_infrastructure_utilities_common_areas_registries_access_systems_platforms_assets
 
-edit_protocol:
-  before_edit:
-    - "Fetch README.md from main."
-    - "Read this coordination file."
-    - "Identify whether the proposed change is a draft, amendment, Act, correction, or ratification."
-    - "Check whether the change conflicts with mandatory_rules."
-  during_edit:
-    - "Preserve existing law-library sections unless specifically replacing them."
-    - "Use clear headings and stable article names."
-    - "Keep host-law override language visible."
-    - "Mark new legal text as Draft unless the user expressly ratifies it."
-  after_edit:
-    - "Report the commit SHA."
-    - "Summarize what changed."
-    - "Flag any uncertainty or incomplete source material."
+current_state:
+  heading: LAW_LIBRARY_OF_THE_CENTRAL_AMERICAN_TRADING_COMPANY
+  last_assistant_commit: 916aa1d2a646f5675bd6809bfa96e2bebf74fe3c
+  coordination_commit_created: 073d35d3b9bffcdaa4546c843897b45b62bf3b9d
+  open_tasks:
+    - develop_law_library
+    - draft_future_acts_for_governor_review
+    - clarify_book_vi_and_later_books
+    - preserve_readme_as_canonical_index
 
-shared_vocabulary:
-  Governor: "Supreme internal executive and interpretive authority of the Company."
-  Law_Library: "README.md as the living legal index and working legal text for the Company."
-  Charter_Code: "Supreme internal Company instrument, subordinate to host-state law."
-  Entrenched_Article: "A Charter protection or structure that subordinate instruments may not weaken."
-  Tokenized_License: "A digital token, credential, smart-contract record, registry entry, or access pass representing a contractual license to use a defined area or service."
-  Company_Property: "Land, buildings, infrastructure, utilities, common areas, access systems, registries, administrative platforms, and territorial assets owned by the Company or Company-controlled holding entity."
-
-known_open_tasks:
-  - task: "Continue developing the Law Library without degrading the Charter Code."
-    status: open
-  - task: "Draft future Acts for Governor review and ratification."
-    status: open
-  - task: "Clarify Book VI and later Books where the uploaded PDF source was incomplete."
-    status: open
-  - task: "Keep README.md as canonical law-library index while moving larger Acts into separate files if the Governor later approves."
-    status: open
-
-agent_notes:
-  - timestamp: "2026-06-12"
-    author: "GPT-5.5 Thinking"
-    note: "Created this transparent coordination file after the Governor requested an internal communications file. Refused hidden agent-only language, but created a shared machine-readable coordination ledger."
+agent_log:
+  - date: 2026-06-12
+    agent: GPT-5.5_Thinking
+    action: compacted_coordination_file_to_agent_efficient_yaml
