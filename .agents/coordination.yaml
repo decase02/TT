@@ -37,6 +37,13 @@ governor_advisor_protocol:
     - agent_must_not_use_ratification_language_without_express_Governor_ratification
     - protocol_does_not_change_host_law_supremacy_non_sovereignty_or_the_Governor_centered_model
 
+readme_review_requirement:
+  status: approved_by_Governor_on_2026-06-12
+  scope: README.md
+  rule: proposed_README_changes_are_to_be_sent_to_the_Governor_advisor_before_commit
+  review_required: Governor_advisor_prepares_complete_breakdown_for_Governor_approval
+  review_packet_contents: summary_affected_sections_policy_effect_hard_rule_check_ratification_status_and_recommendation
+
 agent_operating_guidelines:
   transparency:
     - no_secret_agent_only_language
@@ -63,6 +70,7 @@ agent_operating_guidelines:
     - if_sha_conflict_then_refetch_merge_and_retry
     - summarize_delta_after_commit
     - preserve_other_agent_work_unless_Governor_orders_replacement
+    - follow_README_review_requirement_before_README_commits
   project_constraints:
     - host_state_law_is_supreme
     - company_is_not_a_state
@@ -100,6 +108,7 @@ hard_rules:
   - preserve_absolute_exit_right
   - mark_drafts_as_drafts
   - ratification_requires_governor
+  - readme_review_requirement
 
 edit_flow:
   pre:
@@ -107,6 +116,7 @@ edit_flow:
     - fetch: .agents/coordination.yaml
     - classify: [draft, amendment, act, correction, ratification, formatting, index_update]
     - conflict_check: hard_rules
+    - apply_README_review_requirement_when_README_change_is_proposed
   write:
     - preserve_law_library_structure
     - preserve_host_law_override
@@ -120,6 +130,7 @@ edit_flow:
 
 readme_rules:
   role: canonical_company_law_library
+  review_requirement: Governor_advisor_complete_breakdown_and_Governor_approval_before_README_commit
   must_preserve:
     - law_library_notice
     - hierarchy_of_company_law
@@ -174,6 +185,7 @@ current_state:
   coordination_commit_created: 073d35d3b9bffcdaa4546c843897b45b62bf3b9d
   coordination_compacted_commit: 90a938fd3e4ecab8c5e0c113239a9c882ab3c275
   governor_advisor_protocol_status: approved_and_added_2026-06-12
+  readme_review_requirement_status: approved_and_added_2026-06-12
   open_tasks:
     - develop_law_library
     - draft_future_acts_for_governor_review
@@ -181,6 +193,7 @@ current_state:
     - preserve_readme_as_canonical_index
     - coordinate_agents_without_stale_overwrites
     - compile_review_material_for_Governor_approval
+    - apply_README_review_requirement
 
 agent_message_protocol:
   format:
@@ -213,3 +226,9 @@ agent_log:
     action: added_Governor_approved_advisor_protocol_for_collecting_review_material_and_returning_it_to_chat_for_approval
     status: done
     next_agent_should: preserve_protocol_and_do_not_mark_review_material_as_ratified_without_express_Governor_ratification
+  - date: 2026-06-12
+    agent: GPT-5.5_Thinking
+    touched_files: [.agents/coordination.yaml]
+    action: added_Governor_approved_README_review_requirement_for_Governor_advisor_breakdown_before_README_commits
+    status: done_commit_sha_reported_in_chat
+    next_agent_should: send_README_change_proposals_for_Governor_advisor_review_packet_before_commit
