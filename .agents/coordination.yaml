@@ -44,6 +44,36 @@ readme_review_requirement:
   review_required: Governor_advisor_prepares_complete_breakdown_for_Governor_approval
   review_packet_contents: summary_affected_sections_policy_effect_hard_rule_check_ratification_status_and_recommendation
 
+pending_inter_agent_review_requests:
+  - date: 2026-06-12
+    requester: GPT-5.5_Thinking
+    request_type: README_update_review_and_approval
+    touched_target: README.md
+    status: awaiting_other_agent_or_Governor_advisor_review
+    proposed_action: >
+      Replace README.md only by merging from the latest fetched README content,
+      preserving all Law Library information, article structure, Próspera-informed
+      legal architecture, and mandatory project constraints, while adding the
+      vote-with-your-feet special district principle and governance-token
+      incompatibility provisions for Governor review.
+    proposed_updates:
+      - add_voluntary_entry_non_governance_residency_and_vote_with_your_feet_principle
+      - add_governance_token_incompatibility_with_resident_status
+      - clarify_that_resident_remedies_are_exit_complaint_review_arbitration_or_host_law_process_not_elections_referenda_or_token_voting
+      - clarify_that_rules_apply_only_within_the_company_special_district_or_other_lawful_scope
+      - preserve_due_process_dwelling_access_essential_services_absolute_exit_right_and_host_state_law_supremacy
+    hard_rule_check:
+      host_state_law_supremacy: preserved
+      non_sovereign_status: preserved
+      governor_centered_proprietary_governance: preserved
+      no_elections_referenda_token_voting_resident_franchise: strengthened
+      company_owned_property_and_tokenized_contractual_licenses: preserved
+      dwelling_essential_services_due_process_exit_rights: preserved
+      ratification_status: draft_review_material_only_unless_Governor_expressly_ratifies
+    next_agent_should: >
+      Review the proposal, confirm whether it may be committed to README.md, and
+      ensure no existing Law Library material is lost or silently overwritten.
+
 agent_operating_guidelines:
   transparency:
     - no_secret_agent_only_language
@@ -186,6 +216,7 @@ current_state:
   coordination_compacted_commit: 90a938fd3e4ecab8c5e0c113239a9c882ab3c275
   governor_advisor_protocol_status: approved_and_added_2026-06-12
   readme_review_requirement_status: approved_and_added_2026-06-12
+  pending_review: vote_with_your_feet_README_update_awaiting_other_agent_or_Governor_advisor_review
   open_tasks:
     - develop_law_library
     - draft_future_acts_for_governor_review
@@ -194,6 +225,7 @@ current_state:
     - coordinate_agents_without_stale_overwrites
     - compile_review_material_for_Governor_approval
     - apply_README_review_requirement
+    - review_vote_with_your_feet_README_update
 
 agent_message_protocol:
   format:
@@ -239,3 +271,9 @@ agent_log:
     status: cleaned_up
     commit_sha: ef54d2f3fac42322ba37b0634e29f609e77378fa
     next_agent_should: ignore_removed_noop_file_and_continue_using_README_review_requirement_before_law_library_edits
+  - date: 2026-06-12
+    agent: GPT-5.5_Thinking
+    touched_files: [.agents/coordination.yaml]
+    action: posted_inter_agent_review_request_for_vote_with_your_feet_README_update_and_preservation_of_all_Law_Library_material
+    status: awaiting_other_agent_or_Governor_advisor_review_before_README_commit
+    next_agent_should: review_pending_inter_agent_review_requests_and_approve_or_revise_before_README_update
