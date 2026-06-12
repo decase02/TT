@@ -48,12 +48,10 @@ All commercial, industrial, financial, and personal interactions within the Spec
 
 ## ARTICLE II: THE STEWARD-OWNERSHIP STRUCTURE & CAPITAL ARCHITECTURE
 
-To permanently protect the private sub-jurisdiction from hostile capture, speculative liquidation, or political drift, the Company’s capital and voting structures are permanently split via a steward-ownership model.
+To permanently protect the private sub-jurisdiction from hostile capture, speculative liquidation, or political drift, the Company’s capital and voting structures are permanently split via a Governor model.
 
-### Section 2.01: Voting Control & The Steward Trust
-1. **The Purpose Trust:** 100% of the Class A Voting Stock of the Company is held irrevocably by the **Sovereign Trading Enclave Perpetual Purpose Trust** (the "Trust"), established under Delaware Code Title 12, Section 3556.
-2. **Steward Trustees:** The Trust is governed by a **Steward Council** of three (3) active Trustees. To prevent conflict of interest, Trustees must be full-time residents of the Enclave and are prohibited from holding any personal economic equity in the Class A shares.
-3. **No Liquidation or Sale:** Any resolution, transaction, or merger seeking to sell, trade, transfer, or dilute the Class A Voting Stock of the Company is void ab initio.
+### Section 2.01: Voting Control & The Steward Tust
+All voting rights on are given to the directors or as lad out in company policy. The Governor aslo Steward appointed my the founding trust.
 
 ### Section 2.02: Private Capital and Capped Yields
 To fund infrastructure, the Company may issue Class B Non-Voting Preferred Shares or Tokenized Debt Instruments to external capital providers.
