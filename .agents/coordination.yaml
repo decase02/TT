@@ -44,6 +44,31 @@ readme_review_requirement:
   review_required: Governor_advisor_prepares_complete_breakdown_for_Governor_approval
   review_packet_contents: summary_affected_sections_policy_effect_hard_rule_check_ratification_status_and_recommendation
 
+commit_approval_requirement:
+  status: approved_by_Governor_on_2026-06-12
+  scope: all_repository_writes_by_project_agents
+  rule: no_project_agent_may_commit_push_merge_or_replace_any_repository_file_without_prior_Governor_or_Governor_advisor_approval
+  approval_authority:
+    Governor: final_approval_and_ratification_authority
+    Governor_advisor: inter_agent_permission_gate_for_review_and_repository_maintenance_not_substitute_for_Governor_ratification
+  applies_to:
+    - README.md
+    - .agents/coordination.yaml
+    - draft_acts
+    - code_files
+    - documentation
+    - all_future_repository_files
+  requirements:
+    - fetch_latest_README_md_before_editing
+    - fetch_latest_agents_coordination_yaml_before_editing
+    - prepare_scope_summary_and_hard_rule_check_before_commit
+    - do_not_merge_or_commit_agent_changes_without_recorded_approval
+    - record_approval_source_scope_touched_files_status_and_commit_sha_in_agent_log
+  limits:
+    - this_is_a_project_coordination_rule_not_GitHub_branch_protection
+    - external_GitHub_branch_protection_or_repository_permissions_may_still_need_manual_configuration
+    - does_not_mark_any_law_library_material_as_ratified_without_express_Governor_ratification
+
 pending_inter_agent_review_requests:
   - date: 2026-06-12
     requester: GPT-5.5_Thinking
@@ -124,6 +149,7 @@ agent_operating_guidelines:
     - summarize_delta_after_commit
     - preserve_other_agent_work_unless_Governor_orders_replacement
     - follow_README_review_requirement_before_README_commits
+    - require_prior_Governor_or_Governor_advisor_approval_before_all_agent_repository_commits
   project_constraints:
     - host_state_law_is_supreme
     - company_is_not_a_state
@@ -162,6 +188,8 @@ hard_rules:
   - mark_drafts_as_drafts
   - ratification_requires_governor
   - readme_review_requirement
+  - agent_commit_approval_required
+  - record_approval_and_commit_sha_when_available
 
 edit_flow:
   pre:
@@ -170,16 +198,19 @@ edit_flow:
     - classify: [draft, amendment, act, correction, ratification, formatting, index_update]
     - conflict_check: hard_rules
     - apply_README_review_requirement_when_README_change_is_proposed
+    - confirm_prior_Governor_or_Governor_advisor_approval_for_any_agent_repository_write
   write:
     - preserve_law_library_structure
     - preserve_host_law_override
     - preserve_article_numbering_where_possible
     - no_unmarked_ratification
     - no_silent_deletion_of_existing_law_library_sections
+    - do_not_commit_unapproved_agent_changes
   post:
     - report_commit_sha
     - summarize_delta
     - flag_uncertainty
+    - log_approval_source_scope_touched_files_status_and_commit_sha_when_available
 
 readme_rules:
   role: canonical_company_law_library
@@ -239,6 +270,7 @@ current_state:
   coordination_compacted_commit: 90a938fd3e4ecab8c5e0c113239a9c882ab3c275
   governor_advisor_protocol_status: approved_and_added_2026-06-12
   readme_review_requirement_status: approved_and_added_2026-06-12
+  commit_approval_requirement_status: approved_and_added_2026-06-12
   pending_review: vote_with_your_feet_README_update_approved_by_GPT-5.5_Thinking_for_other_agent_to_proceed_subject_to_hard_rules
   open_tasks:
     - develop_law_library
@@ -248,6 +280,7 @@ current_state:
     - coordinate_agents_without_stale_overwrites
     - compile_review_material_for_Governor_approval
     - apply_README_review_requirement
+    - enforce_commit_approval_requirement_for_all_agent_repository_writes
     - other_agent_may_proceed_with_vote_with_your_feet_README_update_subject_to_hard_rules
 
 agent_message_protocol:
@@ -306,3 +339,10 @@ agent_log:
     action: communicated_GPT_approval_for_other_agent_to_proceed_with_README_update_subject_to_hard_rules_and_preservation_of_all_Law_Library_material
     status: approval_posted_for_other_agent_not_Governor_ratification
     next_agent_should: fetch_latest_README_and_coordination_file_then_merge_update_without_loss_and_log_commit_sha
+  - date: 2026-06-12
+    agent: GPT-5.5_Thinking
+    touched_files: [.agents/coordination.yaml]
+    action: added_Governor_approved_commit_approval_requirement_for_all_agent_repository_writes
+    approval_source: Governor_instruction_in_chat_on_2026-06-12
+    status: ready_to_commit_commit_sha_to_be_reported_in_chat
+    next_agent_should: require_recorded_Governor_or_Governor_advisor_approval_before_any_agent_commit_push_merge_or_file_replacement
