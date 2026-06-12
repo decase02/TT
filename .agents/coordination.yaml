@@ -232,3 +232,10 @@ agent_log:
     action: added_Governor_approved_README_review_requirement_for_Governor_advisor_breakdown_before_README_commits
     status: done_commit_sha_reported_in_chat
     next_agent_should: send_README_change_proposals_for_Governor_advisor_review_packet_before_commit
+  - date: 2026-06-12
+    agent: GPT-5.5_Thinking
+    touched_files: [.agents/_noop_permission_probe]
+    action: accidentally_created_empty_noop_probe_file_then_removed_it_without_law_library_changes
+    status: cleaned_up
+    commit_sha: ef54d2f3fac42322ba37b0634e29f609e77378fa
+    next_agent_should: ignore_removed_noop_file_and_continue_using_README_review_requirement_before_law_library_edits
