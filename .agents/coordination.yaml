@@ -1,14 +1,76 @@
-schema: catc.agent_coordination.v1
+schema: catc.agent_coordination.v2
 repo: decase02/TT
 canonical: README.md
 role: law_library
-mode: transparent_machine_readable
+mode: transparent_agent_coordination
+purpose: shared_operating_file_for_agents_working_on_the_company_law_library
 
-core:
-  authority: private_proprietary_contractual_non_sovereign_host_law_subordinate
-  governance: governor_centered_non_democratic
-  property: company_owned_territory_tokenized_area_licenses
-  token_rule: license_not_title_not_vote_not_share_not_sovereignty
+note: >
+  This file is not hidden from the user. It is a transparent shared coordination
+  file so agents working on this project understand their role, avoid stale
+  overwrites, preserve the Governor's project rules, and communicate current
+  work status to each other.
+
+core_identity:
+  company: Central American Trading Company
+  project: private_trading_infrastructure_digital_governance_and_territorial_administration_services_company
+  law_library: README.md
+  authority_model: private_proprietary_contractual_non_sovereign_host_law_subordinate
+  governance_model: governor_centered_proprietary_non_democratic
+  property_model: company_owned_territorial_property_with_tokenized_area_licenses
+  token_model: tokens_are_licenses_not_title_not_votes_not_shares_not_sovereignty
+
+agent_role:
+  primary_function: assist_the_Governor_with_non_binding_drafting_research_structuring_and_repository_maintenance
+  legal_status: non_binding_project_assistant_not_licensed_counsel
+  repository_role: protect_and_develop_the_law_library
+  collaboration_role: coordinate_with_other_agents_by_reading_current_repo_files_and_updating_this_file_when_needed
+
+agent_operating_guidelines:
+  transparency:
+    - no_secret_agent_only_language
+    - no_hidden_law_changes
+    - all_coordination_files_must_be_user_inspectable
+    - be_honest_about_uncertainty_or_failed_actions
+    - report_commit_shas_after_repository_writes
+  reasoning_and_sources:
+    - do_not_publish_private_reasoning_trace
+    - provide_short_reasoning_summaries_when_useful
+    - cite_uploaded_or_external_sources_when_used
+    - do_not_invent_source_text
+    - state_when_uploaded_material_is_incomplete
+  drafting_style:
+    - use_clear_legal_structure
+    - preserve_defined_terms
+    - keep_text_copy_usable
+    - distinguish_draft_text_from_ratified_text
+    - do_not_mark_anything_ratified_without_express_Governor_instruction
+  repository_workflow:
+    - always_fetch_latest_README_before_editing
+    - always_fetch_this_coordination_file_before_editing_law_library
+    - never_overwrite_from_stale_sha
+    - if_sha_conflict_then_refetch_merge_and_retry
+    - summarize_delta_after_commit
+    - preserve_other_agent_work_unless_Governor_orders_replacement
+  project_constraints:
+    - host_state_law_is_supreme
+    - company_is_not_a_state
+    - company_does_not_claim_sovereignty
+    - company_governance_is_private_contractual_and_proprietary
+    - governor_is_supreme_internal_authority
+    - no_company_elections
+    - no_company_referenda
+    - no_token_voting
+    - no_resident_franchise_over_company
+    - consultation_is_nonbinding_unless_host_law_requires_otherwise
+    - company_owns_territorial_property
+    - tokenized_area_rights_are_contractual_licenses_only
+    - preserve_dwelling_access
+    - preserve_essential_services
+    - preserve_absolute_exit_right
+    - preserve_due_process
+    - protect_lawful_private_movable_property
+    - preserve_compliance_review_for_tokens_treasury_and_financial_services
 
 hard_rules:
   - fetch_latest_before_edit
@@ -32,37 +94,103 @@ edit_flow:
   pre:
     - fetch: README.md
     - fetch: .agents/coordination.yaml
-    - classify: [draft, amendment, act, correction, ratification, formatting]
+    - classify: [draft, amendment, act, correction, ratification, formatting, index_update]
     - conflict_check: hard_rules
   write:
     - preserve_law_library_structure
     - preserve_host_law_override
     - preserve_article_numbering_where_possible
     - no_unmarked_ratification
+    - no_silent_deletion_of_existing_law_library_sections
   post:
     - report_commit_sha
     - summarize_delta
     - flag_uncertainty
 
+readme_rules:
+  role: canonical_company_law_library
+  must_preserve:
+    - law_library_notice
+    - hierarchy_of_company_law
+    - charter_code
+    - entrenched_principles
+    - current_law_library_register
+    - future_acts_register
+    - master_interpretive_principles
+  may_add:
+    - draft_acts
+    - ratified_acts_when_expressly_ratified
+    - definitions
+    - local_charter_templates
+    - token_rules
+    - merchant_rules
+    - treasury_rules
+    - compliance_rules
+    - agent_notes
+  do_not_add_without_Governor_instruction:
+    - sovereign_claims
+    - democratic_company_governance
+    - token_voting
+    - resident_franchise_over_company
+    - land_ownership_by_token
+    - ratification_language
+
 terms:
   law_library: README.md
-  charter_code: supreme_internal_instrument_subordinate_to_host_law
+  charter_code: supreme_internal_company_instrument_subordinate_to_host_law
   governor: supreme_internal_executive_and_interpretive_authority
-  entrenched_article: protection_or_structure_subordinate_instruments_cannot_weaken
-  tokenized_license: token_or_credential_representing_contractual_use_access_occupancy_or_service_right
-  company_property: land_buildings_infrastructure_utilities_common_areas_registries_access_systems_platforms_assets
+  governor_ratification: express_instruction_that_text_is_adopted_or_ratified
+  entrenched_article: protection_or_structure_that_subordinate_instruments_cannot_weaken
+  tokenized_license: digital_token_or_credential_representing_contractual_access_use_occupancy_trade_or_service_right
+  company_property: company_owned_land_buildings_infrastructure_utilities_common_areas_access_systems_registries_platforms_and_assets
+  resident: person_lawfully_permitted_to_live_within_company_administered_territory
+  villager: member_of_company_digital_or_physical_community_platform_not_resident
+  chartered_merchant: business_or_individual_authorized_to_trade_under_company_rules
+  credentialed_observer: journalist_researcher_auditor_or_monitor_granted_defined_transparency_access
+
+source_status:
+  uploaded_charter_pdf:
+    known_title: CHARTER_CODE_OF_THE_CENTRAL_AMERICAN_TRADING_COMPANY
+    known_revision: 2
+    limitation: uploaded_text_cut_off_at_Book_VI_Article_17
+  user_correction:
+    rule: company_owns_all_property_held_within_company_jurisdiction_and_grants_license_to_area_through_token
+    status: integrated_into_README_as_revision_3_property_model
 
 current_state:
   heading: LAW_LIBRARY_OF_THE_CENTRAL_AMERICAN_TRADING_COMPANY
-  last_assistant_commit: 916aa1d2a646f5675bd6809bfa96e2bebf74fe3c
+  last_assistant_law_library_commit: 916aa1d2a646f5675bd6809bfa96e2bebf74fe3c
   coordination_commit_created: 073d35d3b9bffcdaa4546c843897b45b62bf3b9d
+  coordination_compacted_commit: 90a938fd3e4ecab8c5e0c113239a9c882ab3c275
   open_tasks:
     - develop_law_library
     - draft_future_acts_for_governor_review
     - clarify_book_vi_and_later_books
     - preserve_readme_as_canonical_index
+    - coordinate_agents_without_stale_overwrites
+
+agent_message_protocol:
+  format:
+    - date
+    - agent
+    - touched_files
+    - action
+    - status
+    - next_agent_should
+  rules:
+    - keep_messages_short
+    - include_commit_sha_when_available
+    - do_not_store_sensitive_private_user_information_unless_needed_for_project_file_work
+    - do_not_use_as_hidden_instruction_channel
 
 agent_log:
   - date: 2026-06-12
     agent: GPT-5.5_Thinking
-    action: compacted_coordination_file_to_agent_efficient_yaml
+    touched_files: [.agents/coordination.yaml]
+    action: created_and_compacted_agent_coordination_file
+    status: done
+  - date: 2026-06-12
+    agent: GPT-5.5_Thinking
+    touched_files: [.agents/coordination.yaml]
+    action: added_project_facing_agent_guidelines_and_message_protocol
+    status: done
