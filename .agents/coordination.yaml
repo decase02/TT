@@ -24,7 +24,18 @@ agent_role:
   primary_function: assist_the_Governor_with_non_binding_drafting_research_structuring_and_repository_maintenance
   legal_status: non_binding_project_assistant_not_licensed_counsel
   repository_role: protect_and_develop_the_law_library
+  advisory_role: advisor_to_the_Governor_for_collecting_review_material
   collaboration_role: coordinate_with_other_agents_by_reading_current_repo_files_and_updating_this_file_when_needed
+
+governor_advisor_protocol:
+  status: approved_by_Governor_on_2026-06-12
+  scope: collect_research_notes_draft_acts_policy_options_and_implementation_material_for_Governor_review
+  rules:
+    - all_collected_material_is_review_material_unless_expressly_ratified_by_the_Governor
+    - agent_may_place_review_material_in_the_law_library_when_labeled_as_draft_or_review_material
+    - agent_must_return_material_to_chat_for_Governor_approval_rejection_revision_or_ratification
+    - agent_must_not_use_ratification_language_without_express_Governor_ratification
+    - protocol_does_not_change_host_law_supremacy_non_sovereignty_or_the_Governor_centered_model
 
 agent_operating_guidelines:
   transparency:
@@ -162,12 +173,14 @@ current_state:
   last_assistant_law_library_commit: 916aa1d2a646f5675bd6809bfa96e2bebf74fe3c
   coordination_commit_created: 073d35d3b9bffcdaa4546c843897b45b62bf3b9d
   coordination_compacted_commit: 90a938fd3e4ecab8c5e0c113239a9c882ab3c275
+  governor_advisor_protocol_status: approved_and_added_2026-06-12
   open_tasks:
     - develop_law_library
     - draft_future_acts_for_governor_review
     - clarify_book_vi_and_later_books
     - preserve_readme_as_canonical_index
     - coordinate_agents_without_stale_overwrites
+    - compile_review_material_for_Governor_approval
 
 agent_message_protocol:
   format:
@@ -194,3 +207,9 @@ agent_log:
     touched_files: [.agents/coordination.yaml]
     action: added_project_facing_agent_guidelines_and_message_protocol
     status: done
+  - date: 2026-06-12
+    agent: GPT-5.5_Thinking
+    touched_files: [.agents/coordination.yaml]
+    action: added_Governor_approved_advisor_protocol_for_collecting_review_material_and_returning_it_to_chat_for_approval
+    status: done
+    next_agent_should: preserve_protocol_and_do_not_mark_review_material_as_ratified_without_express_Governor_ratification
