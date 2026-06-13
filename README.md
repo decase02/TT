@@ -183,3 +183,307 @@ Revision 5 consolidates all instruments produced by the Cabinet of AI Ministers 
 3. **Territorial acquisition scouting program initiated** — a Candidate Parcel Register (Territory and Infrastructure) and Treasury Review Memorandum (Treasury, Tokens, and Digital Assets) identify, rank, and cost ten high-density commercial parcels on Roatán.
 4. **Court of Directors Capital Authority Act** — an Organic Act amending Article 8 to codify that all Company capital is sourced from shareholders through the Court of Directors, with a mandatory sequence of Treasury Memorandum → Court vote → Governor ratification, and an express boundary clause preserving Article 7B.
 5. **Agent Coordination updated** to reflect the Cabinet dispatch protocol, the Capital Authority rule (the Governor funds nothing personally), and the standing Jurisdictional Knowledge Mandate.
+
+
+
+
+---
+
+## Law Library Notice
+
+This README is the legal library of the Central American Trading Company.
+
+It is not merely a project description. It is intended to serve as the living index and working text for the Company's Charter Code, legal definitions, organic rules, statutory Acts, local charters, merchant regulations, treasury rules, token rules, compliance instruments, and future ratified legal instruments.
+
+The Central American Trading Company is designed as a private, non-sovereign, host-law-subordinate governance-services company. It does not claim statehood, independent sovereignty, diplomatic status, military authority, criminal jurisdiction, public taxation authority, or the power to override host-state law.
+
+The Company exists to provide lawful, voluntary, contract-based governance services to private communities, special jurisdictions, economic zones, charter settlements, digital communities, commercial enclaves, ports, logistics facilities, research zones, and private infrastructure territories.
+
+The Company is inspired by historic chartered trading companies only in the sense of combining commerce, infrastructure, administration, logistics, law, and governance services. It expressly rejects conquest, forced rule, extraction, slavery, coercive monopolies, private warfare, involuntary subjection, and any claim of independent sovereignty.
+
+---
+
+# PART I — AGENT COORDINATION AND CONTROL RULES
+
+## 1. Project-Agent Coordination Protocol
+
+This README is the shared working surface for all project agents assisting the Governor with the Central American Trading Company.
+
+Any project agent, contributor, or drafting assistant working on this repository shall preserve the following control rules unless the Governor expressly amends them:
+
+1. the Company is private and non-sovereign;
+2. host-state law overrides Company law in every case;
+3. governance is proprietary, Governor-centered, and non-democratic internally;
+4. all participation is voluntary and contract-based;
+5. the Company owns territorial property unless a lawful written instrument states otherwise;
+6. tokens are licenses, credentials, or contractual entitlements, not land title, citizenship, votes, sovereignty, or public office;
+7. Residents retain dwelling protection, essential-services protection, exit rights, due process, and dispute-resolution rights;
+8. digital assets, treasury services, payment systems, custody, money transmission, securities, financial products, and regulated technology require compliance review and external counsel where applicable;
+9. Próspera ZEDE law is used as a study model and drafting reference, not as a claim that the Company automatically has ZEDE powers;
+10. every real-world implementation must be reviewed under the law of the host jurisdiction.
+
+## 1A. Cabinet of AI Ministers — Standing Protocol
+
+The Cabinet of AI Ministers operates under the Cabinet Directive (instrument appended to this README as an Administrative Directive). The Cabinet is an advisory and drafting body serving the Governor. It operates through ten ministerial portfolios coordinated by the Chancellor. The dispatch protocol requires: Chancellery routing → Ministry drafting → Compliance Memorandum → Ombudsman dissent → Governor submission. All output is DRAFT until the Governor writes "RATIFIED."
+
+## 1B. Capital Authority Rule
+
+All acquisition capital, infrastructure capital expenditure, and operating reserves are sourced from the Court of Directors, whose members are shareholders of the Company. The Governor funds nothing personally. The sequence for any Capital Commitment exceeding the Material Threshold (USD 250,000) is: Treasury Memorandum → Court of Directors vote on funding → Governor ratification. No Director vote has force until ratified by the Governor. A failed vote means no Company funds move; the Governor may not substitute personal funds to bypass the Court. Shareholder voting at the corporate layer does not create, and shall never be drafted as, a Resident/Villager franchise. Article 7B remains fully intact.
+
+## 2. Agent Alignment with Prior Work
+
+Revision 5 integrates all instruments produced by the Cabinet of AI Ministers since Revision 4, including:
+
+- the Cabinet Directive establishing the ten-portfolio structure and the Part 4 procedure;
+- the Jurisdictional Knowledge Mandate and Jurisdictional Profile for the Próspera ZEDE;
+- the Candidate Parcel Register and Treasury Review Memorandum for the territorial acquisition program;
+- the Court of Directors Capital Authority Act (Organic Act amending Article 8);
+- the Governor's Clarification on Capital Authority.
+
+## 3. No Implied Ratification
+
+No instrument is fully ratified Company law merely because it appears in this README unless it is expressly marked as ratified, adopted, approved, or promulgated by the Governor or by another lawful Company authority acting under delegated authority.
+
+Draft instruments may be stored in this Law Library for review and future ratification.
+
+---
+
+# PART II — PRÓSPERA-INFORMED LEGAL ARCHITECTURE
+
+## 4. Purpose of the Próspera Reference Layer
+
+Próspera ZEDE is used in this Law Library as a reference model for lawful, contract-based, special-jurisdiction governance design.
+
+The Company does not claim to be Próspera ZEDE, a Honduran ZEDE, a sovereign state, or a public government. The Próspera reference layer is used only to study and adapt useful institutional ideas:
+
+1. organic charter law;
+2. hierarchy of legal instruments;
+3. common-law private-law codification;
+4. statutory enactments;
+5. regulations, ordinances, and resolutions;
+6. agreements of coexistence;
+7. resident rights instruments;
+8. arbitration and dispute administration;
+9. registries and legal-identity systems;
+10. special-zone service delivery;
+11. legal stability and host-state compliance.
+
+## 5. Próspera Organic-Law Lesson
+
+The Próspera model begins with an organic legal authority granted by Honduran law to ZEDEs. In the Company model, this lesson is translated into a private-law structure:
+
+- the Company requires a supreme internal charter;
+- the charter must be subordinate to host-state law;
+- any territorial authority must arise from title, lease, concession, contract, license, special-zone authorization, or lawful delegation;
+- the Company must maintain a written record explaining the source of its authority in each territory;
+- local rules cannot exceed the legal authority granted by the host jurisdiction.
+
+### Company Translation
+
+The Company shall maintain an **Organic Charter Layer** composed of:
+
+1. the Charter Code;
+2. Entrenched Articles;
+3. host-state compliance clauses;
+4. delegation or concession records;
+5. Local Charters;
+6. continuity plans for repeal, non-renewal, invalidation, or political reversal.
+
+## 6. Próspera Charter Lesson
+
+Próspera's charter functions as a local constitutional document for its internal governance. The Company adopts the same design principle in private form:
+
+- the Charter Code is the supreme internal instrument;
+- the Charter Code creates the offices, rights, procedures, rule hierarchy, and limitations of the Company;
+- the Charter Code binds the Company as a self-binding commercial constitution;
+- subordinate instruments are valid only if consistent with the Charter Code and host-state law.
+
+### Company Translation
+
+The Company shall treat this README and the Charter Code as the index and working text of its private constitutional framework until a separate formal legal instrument is ratified.
+
+## 7. Próspera Rule-Hierarchy Lesson
+
+The Próspera model distinguishes between different classes of legal instruments. The Company shall use the following adapted hierarchy:
+
+1. host-state constitutional, statutory, regulatory, and court authority;
+2. mandatory public law of the host jurisdiction;
+3. the Company's corporate law and governing instruments;
+4. the Charter Code;
+5. Entrenched Articles of the Charter Code;
+6. ratified Organic Acts;
+7. ratified Statutory Acts;
+8. Local Charters;
+9. Regulations;
+10. Ordinances;
+11. Resolutions;
+12. administrative directives;
+13. registry rules;
+14. token rules;
+15. merchant rules;
+16. platform rules;
+17. contracts, licenses, and occupancy agreements;
+18. policies, manuals, and operating procedures.
+
+Host-state law overrides this entire hierarchy in all cases.
+
+## 8. Company Instrument Classes
+
+The Company may use the following instrument classes:
+
+### 8.1 — Charter Code
+
+The Charter Code is the supreme internal legal instrument of the Company. It defines the nature of the Company, the Governor's authority, the non-sovereignty rule, the status of persons, core rights, tokenized licenses, dispute resolution, compliance, and amendment procedures.
+
+### 8.2 — Organic Acts
+
+Organic Acts implement structural features of the Company, including offices, succession, local charters, registries, courts or tribunals, compliance offices, ombudsman procedures, and relationships with host governments.
+
+### 8.3 — Statutory Acts
+
+Statutory Acts provide generally applicable rules for specific subject areas, including labor, merchants, arbitration, tokens, treasury, data protection, infrastructure, environmental standards, security, access control, and residency.
+
+### 8.4 — Regulations
+
+Regulations provide detail on how Charter provisions and Acts are administered and enforced.
+
+### 8.5 — Ordinances
+
+Ordinances are temporary operating rules used for urgent service delivery, emergency coordination, market organization, infrastructure transition, or temporary local administration. Unless renewed, an Ordinance should expire after a defined period.
+
+### 8.6 — Resolutions
+
+Resolutions record internal decisions, appointments, delegations, authorizations, registry actions, fee schedules, policy interpretations, and administrative measures.
+
+### 8.7 — Contracts and Agreements
+
+Contracts, licenses, occupancy agreements, merchant agreements, resident agreements, platform terms, and Agreements of Coexistence bind the parties who voluntarily accept them. They may grant greater protections than the Charter Code but may not reduce Entrenched Articles.
+
+## 9. Roatán Common Law Code Lesson
+
+Próspera uses the Roatán Common Law Code as a common-law-inspired private-law foundation. The Company adopts this as a drafting model, not as automatically applicable law.
+
+The Company may create a **Company Common Law Reception Act** to receive, adapt, or restate common-law principles for private use, including:
+
+1. contracts;
+2. torts;
+3. property and licenses;
+4. trusts;
+5. agency;
+6. fiduciary duties;
+7. commercial entities;
+8. secured transactions;
+9. restitution;
+10. private nuisance;
+11. remedies;
+12. civil procedure for private tribunals and arbitration.
+
+### Company Common-Law First Principles
+
+Any Company common-law code should be based on the following principles:
+
+1. competent adults are self-responsible persons with freedom of action and property use, subject to the equal rights of others;
+2. legal entities may define internal voting, fiduciary, officer, director, and ownership rules through written instruments, subject to host law;
+3. courts, tribunals, and arbitrators may apply precedent only where logically consistent with written Company law;
+4. new legal principles require adoption by Charter amendment, Act, Regulation, or lawful adjudication within the allowed scope of host-state law;
+5. no common-law principle may be used to create sovereignty, public taxation, criminal jurisdiction, forced residency, or democratic voting rights inside the Company.
+
+## 10. Próspera Statutory-Law Lesson
+
+Próspera uses statutes to govern subject areas such as labor and arbitration. The Company adopts the same method in private form.
+
+The Company shall create subject-specific Acts rather than placing all rules directly into the Charter Code. The Charter Code should define structure and rights; Acts should handle operational detail.
+
+### Priority Statutory Areas
+
+The following statutory areas are prioritized:
+
+1. Organic Charter Supremacy;
+2. Rule Hierarchy and Codification;
+3. Common-Law Reception;
+4. Agreements of Coexistence;
+5. Resident, Villager, Merchant, and User Bill of Rights;
+6. Arbitration and Dispute Administration;
+7. Registry and Records;
+8. Company Property and Tokenized Licenses;
+9. Labor and Contractor Relations;
+10. Fees, Rents, and Revenue Transparency;
+11. Security Services and Access Control;
+12. Digital Identity and Platform Governance;
+13. Treasury, Token, and Digital Asset Compliance;
+14. Environmental and Infrastructure Standards;
+15. Host-State Compliance and Legal Stability;
+16. Emergency Powers and Continuity;
+17. Special Districts and Local Charter Communities.
+
+## 11. Agreements of Coexistence
+
+Próspera uses Agreements of Coexistence to formalize consent to its charter and governance system. The Company adapts this as a private contract model.
+
+Every Resident, Villager, Chartered Merchant, Contractor, platform user, or territorial participant may be required to accept a written agreement stating:
+
+1. the person's status;
+2. the services provided by the Company;
+3. the rules accepted by the person;
+4. the dispute-resolution process;
+5. the fee, rent, dues, or service-charge schedule;
+6. the host-state law override;
+7. the exit right;
+8. dwelling and essential-services protections where applicable;
+9. the limits of tokens and licenses;
+10. the non-sovereign status of the Company;
+11. the procedure for suspension, termination, renewal, appeal, and complaint;
+12. the relationship between the agreement, Local Charter, Charter Code, and host-state law.
+
+## 12. Arbitration and Dispute Resolution
+
+The Próspera model places heavy emphasis on arbitration. The Company adopts arbitration as the preferred method for private civil and commercial disputes.
+
+Arbitration may apply to:
+
+1. contract disputes;
+2. merchant disputes;
+3. tokenized-license disputes;
+4. occupancy disputes where lawful;
+5. platform disputes;
+6. registry disputes;
+7. fee disputes;
+8. service-level disputes;
+9. internal administrative appeals;
+10. disputes between Residents, Villagers, merchants, contractors, users, and the Company.
+
+Arbitration shall not be used to avoid mandatory host-state court jurisdiction, criminal law, consumer-protection law, labor law, tenancy law, securities law, financial regulation, public-law obligations, or non-waivable rights.
+
+## 13. Próspera-Informed Compliance Rule
+
+The Company shall never copy a Próspera rule into operational use merely because it appears useful.
+
+Every imported concept must pass the following test:
+
+1. Is it compatible with the host jurisdiction?
+2. Is it private and contractual rather than sovereign?
+3. Is it consistent with the Charter Code?
+4. Does it preserve the Entrenched Articles?
+5. Does it require external counsel?
+6. Does it affect securities, payments, custody, labor, housing, land, policing, health, environmental law, or public administration?
+7. Does it require host-government authorization?
+8. Does it need to be drafted as an Act, Regulation, Local Charter, contract, or policy?
+
+---
+
+# PART III — CHARTER CODE OF THE CENTRAL AMERICAN TRADING COMPANY
+
+**Amended and Restated — Revision 4**  
+**A Private Trading, Infrastructure, Digital-Governance, and Territorial Administration Services Company**
+
+## Revision Note
+
+Revision 4 restates Revision 3 and integrates the Próspera leg
+
+
+
+
+/s/ — Governor & Legal Representative,
+The Central American Trading Company (private, non-sovereign)
+· Próspera ID 97360454369757 · [Fri, Jun 12, 2026] · electronically signed
+
