@@ -7,7 +7,34 @@
 **Governance Model:** Governor-centered proprietary governance; non-democratic internally  
 **Property Model:** Company-owned territorial property; tokenized licenses to defined areas and services  
 **Próspera Integration Status:** Próspera-informed reference architecture integrated for drafting, review, amendment, and future ratification  
-**Status:** Working Law Library for review, amendment, ratification, and future Acts
+**Status:** Working Law Library for review, amendment, ratification, and future Acts  
+**Current Revision:** Revision 5 (consolidated 12 June 2026)
+
+---
+
+## RATIFICATION QUEUE
+
+The following instruments await Governor review and ratification. No instrument below has been ratified. All instruments listed as DRAFT require completion of the Part 4 procedure (Compliance Memorandum, Ombudsman dissent) and, where indicated, a Court of Directors vote before ratification.
+
+| Docket | Instrument | Class | Summary | Status | Outstanding Steps |
+|--------|------------|-------|---------|--------|-------------------|
+| CATC-001 | Jurisdictional Profile — Próspera ZEDE, Roatán, Honduras | Jurisdictional Profile (Standing Reference) | Comprehensive legal foundation, authority chain, hierarchy of law, 15 legal uncertainties, 9 EC flags | DRAFT v1.0 — continuous updating | Continuous update by Desks A–D; EC flag resolution by licensed Honduran counsel |
+| CATC-002 | Candidate Parcel Register — Roatán High-Density/High-Commerce Sites | Report / Register (Administrative Directive) | Top 10 parcels ranked by density, commerce, infrastructure, and acquisition pathway | DRAFT — requires Compliance pass, Ombudsman pass | Compliance Memorandum; Ombudsman dissent; Host-State Relations integration |
+| CATC-003 | Treasury Review Memorandum — Candidate Parcel Register | Treasury Review (Administrative Directive) | Per-parcel cost analysis, revenue models, capital efficiency rankings, Material Threshold determinations, Token Boundary analysis | DRAFT — requires Compliance pass, Ombudsman pass | Compliance Memorandum; Ombudsman dissent; restatement as Capital Proposals to Court of Directors |
+| CATC-004 | Court of Directors Capital Authority Act | Organic Act (§ 8.2) | Amends Article 8; establishes shareholder-sourced capital, Court voting, Governor ratification, Article 7B boundary clause | DRAFT — requires Compliance pass, Ombudsman pass, Court of Directors vote | Compliance Memorandum; Ombudsman dissent; Governor ratification |
+| CATC-005 | Law Library Revision 5 Consolidation | Law Library Consolidation | This instrument; updates README to Revision 5 | DRAFT pending Governor review | Governor ratification to update the Law Library index |
+
+---
+
+## Revision Note — Revision 5
+
+Revision 5 consolidates all instruments produced by the Cabinet of AI Ministers from session commencement through 12 June 2026. Major additions since Revision 4:
+
+1. **Cabinet Directive codified** as an Administrative Directive governing the ten ministerial portfolios, the Part 4 procedure, the Ten Control Rules, and standing prohibitions.
+2. **Jurisdictional Knowledge Mandate executed** — the Minister of Compliance and Legality has produced the Company's first Jurisdictional Profile, documenting the legal foundation in the Próspera ZEDE (Roatán, Honduras), the post-2022 repeal legal environment, the ICSID arbitration, and a register of fifteen open legal uncertainties rated by severity.
+3. **Territorial acquisition scouting program initiated** — a Candidate Parcel Register (Territory and Infrastructure) and Treasury Review Memorandum (Treasury, Tokens, and Digital Assets) identify, rank, and cost ten high-density commercial parcels on Roatán.
+4. **Court of Directors Capital Authority Act** — an Organic Act amending Article 8 to codify that all Company capital is sourced from shareholders through the Court of Directors, with a mandatory sequence of Treasury Memorandum → Court vote → Governor ratification, and an express boundary clause preserving Article 7B.
+5. **Agent Coordination updated** to reflect the Cabinet dispatch protocol, the Capital Authority rule (the Governor funds nothing personally), and the standing Jurisdictional Knowledge Mandate.
 
 ---
 
@@ -44,21 +71,23 @@ Any project agent, contributor, or drafting assistant working on this repository
 9. Próspera ZEDE law is used as a study model and drafting reference, not as a claim that the Company automatically has ZEDE powers;
 10. every real-world implementation must be reviewed under the law of the host jurisdiction.
 
+## 1A. Cabinet of AI Ministers — Standing Protocol
+
+The Cabinet of AI Ministers operates under the Cabinet Directive (instrument appended to this README as an Administrative Directive). The Cabinet is an advisory and drafting body serving the Governor. It operates through ten ministerial portfolios coordinated by the Chancellor. The dispatch protocol requires: Chancellery routing → Ministry drafting → Compliance Memorandum → Ombudsman dissent → Governor submission. All output is DRAFT until the Governor writes "RATIFIED."
+
+## 1B. Capital Authority Rule
+
+All acquisition capital, infrastructure capital expenditure, and operating reserves are sourced from the Court of Directors, whose members are shareholders of the Company. The Governor funds nothing personally. The sequence for any Capital Commitment exceeding the Material Threshold (USD 250,000) is: Treasury Memorandum → Court of Directors vote on funding → Governor ratification. No Director vote has force until ratified by the Governor. A failed vote means no Company funds move; the Governor may not substitute personal funds to bypass the Court. Shareholder voting at the corporate layer does not create, and shall never be drafted as, a Resident/Villager franchise. Article 7B remains fully intact.
+
 ## 2. Agent Alignment with Prior Work
 
-Revision 4 integrates the prior project-agent guidance already reflected in Revision 3, including:
+Revision 5 integrates all instruments produced by the Cabinet of AI Ministers since Revision 4, including:
 
-- the private, non-sovereign trading/governance-services model;
-- the host-state supremacy rule;
-- the Governor-centered non-democratic authority model;
-- the Company-owned property and tokenized-license correction;
-- the Dwelling and Essential-Services Guarantee;
-- the Absolute Exit Right;
-- the Office of Compliance and Legality;
-- the Ombudsman model;
-- the Law Library structure for Acts, charters, regulations, rules, and official interpretations.
-
-Revision 4 further adds the Próspera legal architecture as a structured research layer for future Acts.
+- the Cabinet Directive establishing the ten-portfolio structure and the Part 4 procedure;
+- the Jurisdictional Knowledge Mandate and Jurisdictional Profile for the Próspera ZEDE;
+- the Candidate Parcel Register and Treasury Review Memorandum for the territorial acquisition program;
+- the Court of Directors Capital Authority Act (Organic Act amending Article 8);
+- the Governor's Clarification on Capital Authority.
 
 ## 3. No Implied Ratification
 
@@ -298,222 +327,4 @@ Every imported concept must pass the following test:
 
 ## Revision Note
 
-Revision 4 restates Revision 3 and integrates the Próspera legal research layer as a structured source of implementation Acts, drafting rules, and project-agent alignment requirements. It preserves the Governor's correction that the Company owns territorial property and grants only tokenized contractual licenses to defined areas or services.
-
----
-
-# BOOK I — FOUNDATIONAL PRINCIPLES
-
-## Article 1 — Nature of the Company
-
-The Company is a private legal entity engaged in:
-
-1. trade and logistics;
-2. digital infrastructure;
-3. lawful crypto and digital-asset services;
-4. private registry services;
-5. arbitration and dispute-administration support;
-6. territorial management services;
-7. infrastructure development;
-8. community governance administration;
-9. compliance, identity, and resident-services platforms;
-10. research-zone administration;
-11. port, warehouse, market, and freeport-style services where lawful.
-
-The Company may operate physical enclaves, digital jurisdictions, commercial platforms, research zones, private communities, ports, warehouses, marketplaces, or governance-service territories only under lawful title, lease, contract, concession, license, or delegation.
-
-The Company shall remain privately held unless the Governor expressly authorizes otherwise through a formal amendment to this Code.
-
-## Article 2 — Non-Sovereignty Clause
-
-The Company is not a state.
-
-The Company shall not claim:
-
-1. independent diplomatic recognition;
-2. national sovereignty;
-3. criminal jurisdiction beyond what is delegated by law;
-4. authority to wage war;
-5. authority to imprison or detain persons beyond what host-state law expressly permits;
-6. authority to collect taxes except lawful service fees, assessments, rents, dues, or delegated public charges;
-7. authority to exclude lawful public authorities from exercising their jurisdiction;
-8. authority to extinguish public rights or mandatory legal protections.
-
-Any territorial governance performed by the Company shall be framed as governance services, administrative management, private-community regulation, or delegated special-zone administration, not sovereign rule.
-
-**Interpretive rule.** Where any provision of this Code is capable of two readings, the reading consistent with this Article prevails.
-
-## Article 3 — Rule of Law
-
-All Company territories and digital communities shall be governed by written rules.
-
-No person may be punished, expelled, fined, suspended, or deprived of access except under published rules or emergency procedures authorized by this Code.
-
-Emergency powers shall be reviewable under Article 13.
-
-Residents, users, merchants, contractors, and Villagers shall have access to a dispute-resolution process meeting the requirements of Book VII.
-
-## Article 3A — Hierarchy of Law
-
-Host-state law overrides this Code in all cases. This Code operates only within the space that applicable law leaves to private ordering.
-
-This Code overrides all subordinate Company instruments, including local charters, platform rules, merchant regulations, token rules, treasury rules, registry rules, and administrative directives.
-
-A contract between the Company and a Resident, Villager, Chartered Merchant, or client may grant rights greater than this Code provides, but may not reduce the protections of the Entrenched Articles.
-
-## Article 3B — Próspera-Informed Interpretation
-
-Where this Code refers to Próspera, ZEDEs, special jurisdictions, common-law codes, arbitration statutes, resident agreements, or organic law, such references are interpretive and comparative only.
-
-They do not incorporate Honduran law into the Company unless expressly adopted by a ratified Company Act and valid under host-state law.
-
----
-
-# BOOK II — STATUS, MEMBERSHIP, RESIDENCY, AND TOKENIZED PROPERTY LICENSES
-
-## Article 4 — Classes of Persons
-
-The Company may recognize the following classes:
-
-**Governor** — the supreme executive and interpretive authority of the Company and this Code.
-
-**Legal Representative** — the legally registered representative with binding signatory authority.
-
-**Director** — a senior officer appointed to administer a department or territory.
-
-**Territorial Administrator** — an officer appointed to administer a Company territory, project, enclave, district, facility, or platform.
-
-**Chartered Merchant** — a business or individual authorized to trade under Company rules.
-
-**Resident** — a person lawfully permitted to live within a Company-administered territory.
-
-**Villager** — a member of the Company's digital or physical community platform who is not a Resident.
-
-**Visitor** — a temporary guest with limited access rights.
-
-**Contractor** — a person or entity providing services under contract.
-
-**Credentialed Observer** — a journalist, researcher, auditor, or monitor granted defined transparency access under Article 4A.
-
-**Third Party** — any person interacting
-
----
-
-# STATUTORY ACT — BUILDING, DWELLING, AND MIXED-USE DEVELOPMENT STANDARDS ACT
-
-**Instrument Class:** Statutory Act (per § 8.3 of the Law Library)
-**Status:** DRAFT — Stored in the Law Library for review; NOT yet ratified (per Part I, § 3 — No Implied Ratification)
-**Subject Areas:** Land use, building standards, dwelling habitability, fire-life-safety, residential classification
-**Hierarchy Note:** This Act is subordinate to host-state law, the Company's corporate instruments, the Charter Code, and the Entrenched Articles. Host-state building codes, fire codes, tenancy law, and land-use law override this Act in all cases (Article 3A, Charter Code).
-
----
-
-## Article B-1 — Purpose and Scope
-
-1. This Act establishes the minimum land-use, construction, and dwelling standards applicable within all Company-administered territories, enclaves, districts, and facilities where the Company lawfully holds development or administrative authority by title, lease, concession, contract, license, or delegation.
-
-2. This Act applies to all new construction, substantial renovation, change of use, and residential classification within Company territories, and binds all Residents, Villagers, Chartered Merchants, Contractors, and Territorial Administrators through their Agreements of Coexistence or equivalent contracts.
-
-3. Nothing in this Act authorizes construction, occupancy, or land use that violates the building code, fire code, health code, zoning law, or tenancy law of the host jurisdiction. Where host-state law imposes a stricter standard than this Act, the stricter standard governs. Where this Act imposes a stricter standard than host-state law permits the Company to require by private contract, this Act applies only to the extent lawful.
-
-## Article B-2 — Definitions
-
-For the purposes of this Act:
-
-**"Dwelling Unit"** means an enclosed space designed or used for human habitation, containing sleeping accommodation and the facilities required by Article B-6.
-
-**"Residence"** means a Dwelling Unit that has been classified and registered as a residence under Article B-6 and the Registry rules.
-
-**"Mixed-Use"** means the combination, within a single lot, parcel, structure, or licensed area, of two or more lawful use categories, including residential, commercial, retail, office, artisan, light-fabrication, hospitality, civic, or service uses.
-
-**"By Right"** means permitted without discretionary approval, special hearing, variance, or case-by-case authorization from the Company, subject only to ministerial confirmation of compliance with written standards.
-
-**"Lot"** means any defined parcel, plot, licensed development area, or tokenized development license area within a Company territory.
-
-**"Single-Family Exclusive Development"** means the development or restriction of a Lot such that the Lot contains, or may contain, only one detached Dwelling Unit occupied by a single household, to the exclusion of additional Dwelling Units or non-residential uses.
-
-**"Fire-Egress Window"** means an operable window meeting the dimensional, sill-height, and operability requirements of the applicable host-state building or fire code for emergency escape and rescue openings, or, where no host-state standard applies, a window providing a clear openable area sufficient for an adult occupant to exit without tools, keys, or special knowledge.
-
-**"Secure Exterior Fire Exit"** means a permanently affixed exterior means of egress — including an exterior stair, fire escape, egress balcony, ladder system, or direct grade-level exit — that (a) is structurally secured to the building, (b) is protected against unauthorized exterior entry, and (c) provides a continuous, unobstructed path from the Fire-Egress Window to a safe discharge point at grade or a public way.
-
-## Article B-3 — Mixed-Use by Right
-
-1. **General rule.** Mixed-Use development is permitted By Right on every Lot within every Company territory.
-
-2. No Local Charter, Regulation, Ordinance, Resolution, covenant, platform rule, merchant rule, or occupancy agreement may require discretionary approval, special permission, public hearing, or variance for a development solely because it combines residential and non-residential uses.
-
-3. The Company may impose only **written, objective, ministerial standards** on Mixed-Use development, limited to:
-   1. fire-life-safety separation between uses where required by host-state code;
-   2. noise, emissions, vibration, and hazardous-materials performance standards applied uniformly by use intensity, not by use category;
-   3. infrastructure capacity (water, power, sanitation, access) standards applied uniformly to all development;
-   4. registry, addressing, and licensing requirements applied uniformly.
-
-4. A Territorial Administrator shall confirm or deny a Mixed-Use development application solely by checklist review against written standards, and shall issue written reasons for any denial. Denials are appealable under Book VII of the Charter Code.
-
-## Article B-4 — Prohibition of Single-Family Exclusive Development
-
-1. **Prohibition.** No Lot within any Company territory may be developed, licensed, restricted, or reserved as a Single-Family Exclusive Development.
-
-2. No instrument subordinate to this Act — including Local Charters, covenants, deed-style restrictions on tokenized licenses, occupancy agreements, or merchant rules — may:
-   1. limit a Lot to one Dwelling Unit;
-   2. prohibit additional Dwelling Units, accessory dwellings, or subdivision of interior space into multiple Dwelling Units on a Lot;
-   3. prohibit non-residential uses on a Lot solely on the ground that the Lot contains a Dwelling Unit.
-
-3. **Clarification.** This Article does not prohibit any person from *occupying* a structure as a single household. It prohibits only the legal restriction of a Lot to single-family use. A detached house remains lawful provided the Lot's governing instruments permit additional Dwelling Units and Mixed-Use as of right.
-
-4. Any provision of a subordinate instrument that conflicts with this Article is void to the extent of the conflict, without affecting the remainder of the instrument.
-
-## Article B-5 — Minimum Dwelling Size
-
-1. The minimum gross interior floor area of any Dwelling Unit is **100 square feet (approximately 9.3 m²)**, exclusive of any exterior balcony or storage not enclosed within the unit envelope, but inclusive of the bathroom required by Article B-6.
-
-2. Where the host jurisdiction imposes a larger minimum dwelling size, the host-state minimum governs and this Article operates only as a floor for territories where host-state law permits dwellings of 100 ft² or smaller.
-
-3. No Dwelling Unit smaller than 100 ft² may be classified as a Residence, offered for residential occupancy, or registered in the residential registry, regardless of marketing description.
-
-## Article B-6 — Mandatory Residence Standards
-
-1. **Classification rule.** No Dwelling Unit shall be classified, registered, permitted, licensed, or marketed as a **Residence**, and no construction permit shall issue for a Dwelling Unit intended as a Residence, unless the unit satisfies all of the following:
-
-   ### B-6.1 — Fire-Egress Window
-   Every Residence shall contain at least one Fire-Egress Window in each sleeping area. The window shall be operable from the interior without tools, keys, or special knowledge.
-
-   ### B-6.2 — Secure Exterior Fire Exit Connected to the Window
-   Every Residence shall be served by a Secure Exterior Fire Exit that is **directly connected to, or directly accessible from, the Fire-Egress Window**, such that an occupant exiting through the window reaches the exterior fire exit without crossing an unprotected gap, unsecured surface, or another occupant's private space. For ground-floor Residences where the Fire-Egress Window discharges directly to grade, the grade-level path to a safe discharge point satisfies this requirement.
-
-   ### B-6.3 — Full Bathroom
-   Every Residence shall contain, within the Dwelling Unit, a full bathroom comprising at minimum:
-   1. a flush toilet connected to a lawful sanitation system;
-   2. a shower with hot and cold running water, installed as a **separate fixture from the toilet** (a combined wet-room layout is permitted only where the toilet and shower remain distinct fixtures);
-   3. a lavatory (sink) with running water.
-
-   Shared, communal, or hallway bathrooms do not satisfy this Article. A unit relying on shared facilities may be registered only as non-residential lodging or dormitory space under a separate Act, and shall not be classified as a Residence.
-
-2. **No waiver.** The standards of this Article are minimum habitability standards connected to the Dwelling and Essential-Services Guarantee. They may not be waived by contract, reduced by Local Charter, or varied downward by Ordinance or Resolution. A contract may exceed them.
-
-3. **Permission to build.** Upon ministerial confirmation that a proposed Dwelling Unit meets Articles B-5 and B-6 and all applicable host-state requirements, the Territorial Administrator shall grant permission to build the unit as a Residence and shall register it accordingly.
-
-## Article B-7 — Inspection, Certification, and Registry
-
-1. Before residential occupancy, every Residence shall be inspected and certified against Articles B-5 and B-6 by an inspector designated under Regulation, and against host-state code by the authority the host jurisdiction requires.
-
-2. The residential registry shall record, for each Residence: floor area; location and dimensions of each Fire-Egress Window; the type and discharge path of the Secure Exterior Fire Exit; and bathroom fixture compliance.
-
-3. Certification shall be reviewed upon substantial renovation, change of use, or transfer of the underlying tokenized license.
-
-## Article B-8 — Enforcement and Remedies
-
-1. Violations of this Act are enforceable through the compliance and dispute-resolution mechanisms of Books VII and the Office of Compliance and Legality, subject to the due-process protections of Article 3 of the Charter Code.
-
-2. Remedies may include denial or revocation of residential classification, correction orders, suspension of new occupancy, and contractual remedies — but never eviction from an occupied dwelling, termination of essential services, or any measure inconsistent with the Dwelling and Essential-Services Guarantee, the Absolute Exit Right, or host-state tenancy law.
-
-3. Where a violation creates imminent fire-life-safety danger, the Territorial Administrator may act under the emergency provisions of Article 13 of the Charter Code, subject to review.
-
-## Article B-9 — Relationship to Próspera Reference Layer
-
-The performance-based, ministerial-review approach of this Act is informed by the Próspera reference architecture (Part II of the Law Library) as a comparative model only. Nothing in this Act incorporates Honduran or ZEDE building law, and every implementation requires review under the law of the host jurisdiction per Part II, § 13.
-
----
-
-*End of draft Act. Pending review and ratification by the Governor under Part I, § 3.*
-
+Revision 4 restates Revision 3 and integrates the Próspera legal research 
